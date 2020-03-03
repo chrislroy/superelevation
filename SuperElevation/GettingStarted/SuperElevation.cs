@@ -44,5 +44,12 @@ namespace GettingStarted
             ListSEForm f = new ListSEForm();
             f.ShowDialog();
         }
+
+        [CommandMethod("SuperElevationTest")]
+        public void SuperElevationTest()
+        {
+            SuperElevationUI f = new SuperElevationUI();
+            f.ShowDialog();
+        }
     }
 }

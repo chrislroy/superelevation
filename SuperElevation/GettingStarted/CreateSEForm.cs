@@ -99,16 +99,6 @@ namespace GettingStarted
                 doc.Editor.WriteMessage("\nSuper Elevation created :)");
             }
 
-            //             TestSEForm f = new TestSEForm();
-            //             Transaction acTrans = doc.TransactionManager.StartTransaction();
-            //             using (acTrans)
-            //             {
-            //                 var se = acTrans.GetObject(seId, OpenMode.ForRead);
-            //                 string set = se.GetType().ToString();
-            //                 var ser = se as SuperelevationView;
-            //                 f.setContext(doc, ref ser);
-            //             }
-            //             f.ShowDialog();
             Close();
         }
 
