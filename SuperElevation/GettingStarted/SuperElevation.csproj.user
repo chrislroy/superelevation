@@ -6,4 +6,10 @@
     <StartAction>Program</StartAction>
     <StartProgram>E:\ACAD_R047_Release\develop\RunRoot\Release64\acad\Program Files\Autodesk\AutoCAD 2021\acad.exe</StartProgram>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>U:\develop\RunRoot\Release64\acad\Program Files\Autodesk\AutoCAD 2021\acad.exe</StartProgram>
+    <StartWorkingDirectory>E:\ACAD_R047_Release\develop\RunRoot\Release64\acad\Program Files\Autodesk\AutoCAD 2021</StartWorkingDirectory>
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+  </PropertyGroup>
 </Project>

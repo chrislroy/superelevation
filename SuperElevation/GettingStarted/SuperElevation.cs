@@ -24,32 +24,13 @@ namespace GettingStarted
 
         #endregion
 
-        [CommandMethod("CreateSE")]
-        public void CreateSE()
+        [CommandMethod("ListFL")]
+        public void ListFL()
         {
-            CreateSEForm f = new CreateSEForm();
+            ListFeatureLines f = new ListFeatureLines();
             f.ShowDialog();
         }
 
-        [CommandMethod("TestSE")]
-        public void TestSE()
-        {
-            TestSEForm f = new TestSEForm();
-            f.ShowDialog();
-        }
-
-        [CommandMethod("ListSE")]
-        public void ListSE()
-        {
-            ListSEForm f = new ListSEForm();
-            f.ShowDialog();
-        }
-
-        [CommandMethod("SuperElevationTest")]
-        public void SuperElevationTest()
-        {
-            SuperElevationUI f = new SuperElevationUI();
-            f.ShowDialog();
-        }
     }
 }
+
